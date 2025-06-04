@@ -28,7 +28,6 @@ function InputBoxAngular() {
       <h1>Input Test Page</h1>
       <angular-input value={angularInputValue}></angular-input>
       <p>Current value: {angularInputValue}</p>
-      <p>Last updated: {new Date().toLocaleTimeString()}</p>
 
       <nav>
         <Link to="/" className="nav-button">Back to Home</Link>
