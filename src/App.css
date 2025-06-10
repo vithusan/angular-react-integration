@@ -44,6 +44,49 @@
 .home-container {
   text-align: center;
   padding: 2rem;
+  padding: 20px;  .news-display {
+    padding: 20px;
+  }
+  
+  .back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+}
+
+.input-section {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.news-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-width: 200px;
+}
+
+.launch-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.launch-button:hover {
+  background-color: #0056b3;
 }
 
 .nav-button {
@@ -59,4 +102,44 @@
 
 .nav-button:hover {
   background-color: #0056b3;
+}
+
+
+.news-display {
+  padding: 20px;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.react-loading-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.loading-content {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
